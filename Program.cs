@@ -35,7 +35,7 @@ namespace cursed_calculator
         while (!ctx.IsFinished)
         {
             task.Increment(1.5);
-            Thread.Sleep(50);
+            Thread.Sleep(20);
         }
     });
 
@@ -59,7 +59,7 @@ namespace cursed_calculator
                 double result = Convert.ToDouble(num1) / Convert.ToDouble(num2);
                 Console.WriteLine(staticCow.Speak("Das Ergebnis ist: " + result, cowEyes: "o<"));
             }
-            Console.ReadKey(true);   // damit Konsole nach Abscluss nicht automatisch beendet wird
+            Console.ReadKey(true);   // damit Konsole nach Abschluss nicht automatisch beendet wird
         }
     }
 }

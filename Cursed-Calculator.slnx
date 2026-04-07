@@ -1,3 +1,5 @@
 <Solution>
-  <Project Path="Cursed-Calculator.csproj" />
+  <Project Path="Cursed-Calculator.csproj">
+    <BuildType Project="Release" />
+  </Project>
 </Solution>
