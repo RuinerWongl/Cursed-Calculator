@@ -14,8 +14,9 @@ namespace cursed_calculator
 
             var staticCow = await DefaultCattleFarmer.RearCowWithDefaults("default");
 
-            Console.WriteLine(staticCow.Speak("Muh soll ich dir in Mathe helfen? Ich bin bin sehr gut darin! Sag einfach muuh!", cowEyes: "^^"));
-            string answer = AnsiConsole.Ask<string>("Willst du, dass ich dir in Mathe helfe? (muuh)");
+            Console.WriteLine(staticCow.Speak("Muh soll ich dir in Mathe helfen? Ich bin sehr gut darin! Sag einfach muuh!", cowEyes: "^^"));
+            Console.WriteLine("Drücke eine Taste...");
+            Console.ReadKey(true);
             Console.WriteLine("Schön, dann lass uns mal rechnen. Auch, wenn du nicht willst (mach es für deine Kuh)");
 
             Console.WriteLine("Gib die erste Zahl ein:");
@@ -58,6 +59,7 @@ namespace cursed_calculator
                 double result = Convert.ToDouble(num1) / Convert.ToDouble(num2);
                 Console.WriteLine(staticCow.Speak("Das Ergebnis ist: " + result, cowEyes: "o<"));
             }
+            Console.ReadKey(true);   // damit Konsole nach Abscluss nicht automatisch beendet wird
         }
     }
 }
