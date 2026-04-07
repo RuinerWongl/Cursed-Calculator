@@ -1,3 +1,4 @@
 Calculator with Cowsay
 
-<img width="434" height="207" alt="grafik" src="https://github.com/user-attachments/assets/987a46cc-0332-4fd1-b925-8fe38c2f8bef" />
+<img width="426" height="178" alt="grafik" src="https://github.com/user-attachments/assets/f0873274-7b0c-4f43-9263-84cc115ab1fc" />
+
